@@ -1,0 +1,41 @@
+.nav-bar,.footer{
+    background-color: #fff;
+    color: #242424;
+}
+
+body{
+    background-color: #1F2039;
+    }
+    
+li,p,h2{
+    color:#F9F8FF;
+}
+p{font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+h1{
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+li{
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+span{
+    color:#A5B4FC;
+    font-style: em;
+    }
+.project{
+    background: linear-gradient(##8E86B5, #ACAEED);
+    color:
+}
