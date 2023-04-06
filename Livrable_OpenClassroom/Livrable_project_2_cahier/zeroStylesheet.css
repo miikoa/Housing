@@ -133,6 +133,9 @@ figcaption.captionColor {
   }
   
 /*courInfoPartie*/
+.coursInfoContainer{
+    background-color: #EDEDED;
+}
 .Décourvrez{
     color: #E44444;
       font-weight: 900;
@@ -147,6 +150,13 @@ figcaption.captionColor {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+button{
+    line-height: 2em;
+    width: 20em;
+    color: white;
+    border-radius: 50px;
+    border:2px solid #E44444;
 }
   /***************/
   .directionRow {
