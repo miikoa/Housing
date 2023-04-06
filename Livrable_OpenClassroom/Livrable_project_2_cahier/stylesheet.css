@@ -105,7 +105,14 @@
       color: var(--drak-grey-color);
   }
   
+  .title_fondateur{
+    color:#EDEDED;
+  }
+  .fondateur_background{
+    background: linear-gradient(to right, #E44444, #CD487B);
+}
   
+
   /***************/
   .directionRow {
       display: flex;
