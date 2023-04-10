@@ -21,7 +21,6 @@
   h3 {
       font-family: 'Archivo', sans-serif;
       font-style: normal;
-    
   }
   
   h2 {
@@ -106,85 +105,7 @@
       color: var(--drak-grey-color);
   }
   
-   /*fondateur partie*/
-
-  .fondateur_background{
-    background: linear-gradient(to right, #E44444, #CD487B);
-    color: #EDEDED;
-}
-
-.title_fondateur{
-    color:#EDEDED;
-  }
-
-figcaption {
-    text-align: center;
-}
-
-
-   .founderContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color:#EDEDED;
-}
-
-figcaption {
-    text-align: center;
-}
-
-figcaption.captionColor {
-    color:white;
-  }
   
-/*courInfoPartie*/
-.coursInfoContainer{
-    
-    background-color: #EDEDED;
-}
-
-.boutonContainer{
-    display: flex; 
-    justify-content: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
-}
-
-.boutonAdultes{
-   
-    text-decoration: none;
-    color: var(--main-color);
-}
-
-.boutonEnfants{
-    text-decoration: none;
-    color: var(--main-color);
-}
-button {
-    display: flex;
-    justify-content: row;
-    border-color: var(--main-color);
-    border-radius: 39px;
-    border:2px solid #E44444;
-    padding: 10%;
-    font-family: 'Archivo';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 17px;
-    text-decoration: none;
-    margin-bottom: 5px;
-    margin-top: 10px;
-   width: max-content;
-    
-    
-}
-
-button:hover{
-    color: var(--second-color);
-    border-width:3px; 
-}
   /***************/
   .directionRow {
       display: flex;
@@ -212,3 +133,56 @@ button:hover{
       text-align: center;
   }
   
+  /***************/
+  .sectionLightGreyBackground {
+      background-color: var(--light-grey-color);
+  }
+  
+  .button {
+      margin: 20px 0px;
+      padding: 28px 40px;
+  
+      background-color: white;
+  
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 5px;
+  
+      box-sizing: border-box;
+  
+      font-family: 'Archivo';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 17px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      text-decoration: none;
+  }
+  
+  .buttonDrakGreyColor {
+      color: var(--drak-grey-color);
+      border-color: var(--drak-grey-color);
+  }
+  
+  .buttonMainColor {
+      color: var(--main-color);
+      border-color: var(--main-color);
+  }
+  
+  .buttonSecondColor {
+      color: var(--second-color);
+      border-color: var(--second-color);
+  }
+  
+  .buttonRounded {
+      border-radius: 39px;
+  }
+  
+  .buttonHighlight:hover {
+      font-weight: 800;
+      border-width: 3px;
+  }

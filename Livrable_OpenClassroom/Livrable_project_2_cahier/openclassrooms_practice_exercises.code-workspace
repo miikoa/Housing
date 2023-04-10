@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../openclassrooms_practice_exercises"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Livrable_OpenClassroom"
+	}
+}

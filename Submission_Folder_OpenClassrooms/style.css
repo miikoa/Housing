@@ -91,7 +91,7 @@
   }
   
   article {
-      width: 15%;
+    width: 15%;
       margin: 0px 20px;
       display: flex;
       flex-direction: column;
@@ -108,77 +108,77 @@
   
    /*fondateur partie*/
 
+  .individualContainer{
+    color:#EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  img{
+    display: block;
+    margin: o auto ;
+  }
   .fondateur_background{
     background: linear-gradient(to right, #E44444, #CD487B);
     color: #EDEDED;
 }
+#title_fondateur{
+    color: white;}
 
-.title_fondateur{
-    color:#EDEDED;
-  }
+  
 
-figcaption {
-    text-align: center;
-}
-
-
-   .founderContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color:#EDEDED;
-}
-
-figcaption {
-    text-align: center;
-}
-
-figcaption.captionColor {
-    color:white;
-  }
   
 /*courInfoPartie*/
+
+h2{
+    white-space: nowrap;
+ }
+      
 .coursInfoContainer{
-    
-    background-color: #EDEDED;
+    background-color:#EDEDED;
+    overflow: hidden;
 }
 
-.boutonContainer{
-    display: flex; 
-    justify-content: row;
+.containerButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
+    background-color:#EDEDED;
 }
+
+
 
 .boutonAdultes{
-   
     text-decoration: none;
     color: var(--main-color);
+   
 }
 
 .boutonEnfants{
     text-decoration: none;
     color: var(--main-color);
 }
+
 button {
-    display: flex;
-    justify-content: row;
     border-color: var(--main-color);
     border-radius: 39px;
     border:2px solid #E44444;
-    padding: 10%;
+    padding: 2%;
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 17px;
     text-decoration: none;
-    margin-bottom: 5px;
-    margin-top: 10px;
-   width: max-content;
-    
-    
+    margin-top: 7px;
+    margin-bottom: 12px;
+    width: max-content;
+    background-color: white;
 }
 
 button:hover{
